@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  transition: background-color 1s ease;
+}
+
+body {
+  background-color: #ffffff; /* Light mode background */
+}
+
+/* Tailwind's dark mode background for dark mode */
+.dark body {
+  background-color:  #1F2937; /* Dark mode background */
+}
